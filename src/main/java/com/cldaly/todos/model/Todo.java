@@ -16,6 +16,8 @@ public class Todo {
 		this.done = false;
 	}
 	
+	public Todo() {}
+	
 	public String getId() {
 		return id;
 	}
