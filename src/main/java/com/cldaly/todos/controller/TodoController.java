@@ -39,8 +39,8 @@ public class TodoController {
 		return service.findAllCompleted();
 	}
 	
-	@PutMapping("/update/{id}")
-	public Todo completeTodo(@PathVariable("id") String id) {
+	@PutMapping("/update")
+	public Todo completeTodo(@RequestBody String id) {
 		return service.completeTodo(id);
 	}
 	

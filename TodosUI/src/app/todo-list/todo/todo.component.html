@@ -1,0 +1,8 @@
+<div class="todo">
+    <a *ngIf="view" class="check-box">
+        <i class="far fa-square unchecked"></i>
+        <i (click)="complete()" class="far fa-check-square checked"></i>
+    </a >
+    <i (click)="delete()" *ngIf="!view" class="far fa-trash-alt delete"></i>
+    <span>{{todo.message}}</span>
+</div>

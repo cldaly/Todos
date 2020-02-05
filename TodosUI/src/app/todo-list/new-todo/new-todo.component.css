@@ -1,0 +1,53 @@
+.new-todo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 5px 10px 20px;
+    margin-top: 10px;
+}
+
+.new-todo button {
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 1em;
+    font-weight: 300;
+    color: rgba(12, 119, 57, 0.8);
+    background-color: transparent;
+    border: 1px solid rgba(12, 119, 57, 0.5);
+    border-radius: 4px;
+    padding: 5px 15px;
+    transition: 0.1s 0.02s linear;
+}
+
+.new-todo button:hover {
+    color:rgba(12, 119, 57,0.9);
+    border: 1px solid rgba(12, 119, 57,0.9);
+    background-color: rgba(12, 119, 57, 0.05);
+    transition: 0.1s 0.02s linear;
+}
+
+.new-todo button:active {
+    color:rgb(12, 119, 57);
+    border: 1px solid rgb(12, 119, 57);
+    background-color: rgba(12, 119, 57, 0.15);
+    transition: 0.02s 0s linear;
+}
+
+.new-todo button:focus {
+    outline: none;
+}
+
+.new-todo input {
+    font-size: 1em;
+    font-weight: 400;
+    padding: 5px 10px 5px 0;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.new-todo input:focus {
+    outline: none;
+}
