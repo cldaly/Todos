@@ -3,7 +3,7 @@ package com.cldaly.todos.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collation = "todos")
+@Document(collection = "todos")
 public class Todo {
     @Id
     private String id;
