@@ -35,13 +35,13 @@
     padding: 0 10px;
     border-radius: 5px;
     user-select: none;
-    transition: background-color 0.08s ease-in, opacity 0.08s linear;
+    transition: background-color 0.1s ease-in, opacity 0.1s linear;
 }
 
 .change-view:hover {
     opacity: 1;
     cursor: pointer;
-    transition: background-color 0.08s ease-in, opacity 0.08s linear;
+    transition: background-color 0.06s ease-in, opacity 0.06s linear;
     background-color: #cde9c8;
 }
 
