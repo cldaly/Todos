@@ -30,6 +30,7 @@ export class TodoListComponent implements OnInit, OnDestroy {
   }
 
   changeView = () => {
+    this.todos = [];
     this.todoView = !this.todoView;
     if (this.todoView) {
       this.ts.checkTodos();

@@ -9,13 +9,13 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.cldaly</groupId>
-	<artifactId>Todos</artifactId>
+	<artifactId>todos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Todos</name>
-	<description>Spring Boot | Angular - Todo List</description>
+	<description>Todo List</description>
 
 	<properties>
-		<java.version>13</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
