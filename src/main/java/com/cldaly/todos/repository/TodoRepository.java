@@ -8,6 +8,6 @@ import java.util.ArrayList;
 
 @Repository
 public interface TodoRepository extends MongoRepository<Todo, String> {
-    public ArrayList<Todo> findByDoneFalse();
-    public ArrayList<Todo> findByDoneTrue();
+    ArrayList<Todo> findByDoneFalse();
+    ArrayList<Todo> findByDoneTrue();
 }

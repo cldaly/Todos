@@ -18,10 +18,6 @@ public class TodoService {
         return tr.save(todo);
     }
 
-    public Optional<Todo> findTodo(String id) {
-        return tr.findById(id);
-    }
-
     public ArrayList<Todo> findAllTodos(){
         return tr.findByDoneFalse();
     }
