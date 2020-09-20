@@ -1,5 +1,6 @@
 <div class="todo-list">
-    <h2>My Todos...</h2>
+    <h2 *ngIf="todoView">My Todos...</h2>
+    <h2 *ngIf="!todoView">Completed Todos...</h2>
     <div class="todos" *ngFor="let todo of todos">
         <app-todo [todo]='todo' [view]='todoView'></app-todo>
     </div>
