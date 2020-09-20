@@ -1,14 +1,14 @@
-package com.cldaly.todos.controller;
+package com.claytoncodes.todos.controller;
 
-import com.cldaly.todos.model.Todo;
-import com.cldaly.todos.service.TodoService;
+import com.claytoncodes.todos.model.Todo;
+import com.claytoncodes.todos.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="http://localhost:4200", maxAge=3600)
 @RequestMapping("/api/todos")
 public class TodoController {
 

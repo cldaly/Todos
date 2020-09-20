@@ -1,6 +1,6 @@
-package com.cldaly.todos.repository;
+package com.claytoncodes.todos.repository;
 
-import com.cldaly.todos.model.Todo;
+import com.claytoncodes.todos.model.Todo;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

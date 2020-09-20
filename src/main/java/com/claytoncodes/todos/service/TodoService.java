@@ -1,7 +1,7 @@
-package com.cldaly.todos.service;
+package com.claytoncodes.todos.service;
 
-import com.cldaly.todos.model.Todo;
-import com.cldaly.todos.repository.TodoRepository;
+import com.claytoncodes.todos.model.Todo;
+import com.claytoncodes.todos.repository.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

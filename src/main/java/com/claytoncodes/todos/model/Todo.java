@@ -1,4 +1,4 @@
-package com.cldaly.todos.model;
+package com.claytoncodes.todos.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
